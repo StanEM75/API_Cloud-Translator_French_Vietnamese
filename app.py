@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, jsonify
+from urllib.parse import quote as url_quote
 import os
 import requests
 
