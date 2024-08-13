@@ -11,3 +11,8 @@ This project aims to connect to the Azure Translator API and execute a request t
 - **Microsoft Azure**
 - **Heroku**
 - **Python**
+
+## 🇲🇫➡️🇻🇳 Output 
+
+Test the application here:
+https://cryptic-beach-96708-dc6294d8f009.herokuapp.com/translate
