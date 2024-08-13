@@ -29,6 +29,10 @@ def translate():
     if not all([subscription_key, endpoint, location]):
         return jsonify({'error': 'Translation service configuration is missing'}), 500
 
+    # Ensure the endpoint includes the scheme (https://)
+    if not endpoint.startswith('http'):
+        endpoint = 'https://' + endpoint
+
     # Construct the API endpoint URL
     path = '/translate'
     constructed_url = os.path.join(endpoint, path.lstrip('/'))
