@@ -1,0 +1,43 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+myenv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.cache
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.json
+
+# Logs
+*.log
+
+# Local settings
+local_settings.py
+.env
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
