@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French to Vietnamese Translator</title>
+</head>
+<body>
+    <h1>Translate French to Vietnamese</h1>
+    <form action="/translate" method="post">
+        <label for="text">Text to Translate:</label>
+        <input type="text" id="text" name="text">
+        <button type="submit">Translate</button>
+    </form>
+
+    {% if translation %}
+        <h2>Translation:</h2>
+        <p>{{ translation }}</p>
+    {% endif %}
+</body>
+</html>
+
+
