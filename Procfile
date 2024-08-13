@@ -1,2 +1,3 @@
-web: gunicorn translate:apy
+web: gunicorn translate:app
+
 
