@@ -25,16 +25,16 @@ This project aims to connect to the Azure Translator API and execute a request t
 Test the application here:
 https://cryptic-beach-96708-dc6294d8f009.herokuapp.com/translate
 
-## 🛠️ Installation
+## 🔑 Installation
 
-1. **Clone the repository:**
+1. **Clone the repository**
 
     ```bash
     git clone https://github.com/StanEM75/API_Cloud-Translator_French_Vietnamese.git
     cd API_Cloud-Translator_French_Vietnamese
     ```
 
-2. **Create and activate a virtual environment:**
+2. **Create and activate a virtual environment**
 The goal is to avoid conflicts between packages.
 
     ```bash
@@ -42,14 +42,14 @@ The goal is to avoid conflicts between packages.
     source myenv/bin/activate
     ```
 
-3. **Install dependencies:**
+3. **Install dependencies**
 We need these packages to have a working project.
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Configure environment variables:**
+4. **Configure environment variables**
 Need to set environment variables for the Azure Translator API. The `.env` file in the project directory will store the actual values:
 
     ```plaintext
@@ -58,26 +58,26 @@ Need to set environment variables for the Azure Translator API. The `.env` file 
     LOCATION=your_location
     ```
 
-5. **Run the application:**
+5. **Run the application**
 It creates a local application on the computer.
 
     ```bash
     python app.py
     ```
 
-6. **Login on Heroku for the deployment:**
+6. **Login on Heroku for the deployment**
 
     ```bash
     heroku login
     ```
 
-7. **Create a Heroku app:**
+7. **Create a Heroku app**
 
     ```bash
     heroku create
     ```
 
-8. **Push the files to the Heroku project:**
+8. **Push the files to the Heroku project**
 
     ```bash
     git add .
